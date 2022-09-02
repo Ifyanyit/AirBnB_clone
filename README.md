@@ -1,2 +1,3 @@
-![AirBnB](https://github.com/Ifyanyit/AirBnB_clone/blob/main/airbnbLogo.png)
+![AirBnB](https://github.com/Ifyanyit/AirBnB_clone/blob/main/airbnb1Logo.png)
+
 
