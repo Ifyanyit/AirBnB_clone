@@ -13,7 +13,7 @@ class Objects(dict):
     """class object"""
 
     def __getitem__(self, key):
-        """get item"""
+        """This will get item"""
         try:
             return super(Objects, self).__getitem__(key)
         except Exception as e:
