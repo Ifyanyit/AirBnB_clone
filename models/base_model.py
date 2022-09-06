@@ -2,7 +2,7 @@
 """
 base class file
 """
-
+import models
 import uuid
 from datetime import datetime
 from json import JSONEncoder
