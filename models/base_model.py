@@ -5,19 +5,16 @@ base class file
 
 import uuid
 from datetime import datetime
-import models
 from json import JSONEncoder
 
 
 class BaseModel:
     """
-    =========
-    BaseModel
-    =========
+    BaseModel defines all common attributes/methods for other classes
     """
 
     def __init__(self, *args, **kwargs):
-        """initialize the instance of the class"""
+        """ this is the init method - initialize the instance of the class"""
         if kwargs:
             for key, value in kwargs.items():
                 if key == "created_at" or key == "updated_at":
